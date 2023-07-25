@@ -1,0 +1,23 @@
+body{
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+    color: #333;
+    letter-spacing: -0.085rem;
+    font-weight: 200; 
+    /* 영문은 200 */
+    font-weight: 400;
+    /* 한글은 400 */
+}
+/* 영어폰트가 한글 지원 안되는 경우에만 영어폰트 먼저!!  */
+p, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd{ margin: 0; padding: 0;}
+li, dl{ list-style: none;}
+a{ text-decoration: none; color: #333;}
+/* 폰트파일에 넣으면 부트스랩이 이겨서 레이아웃.css에 폰트 넣음 */
+
+/* 공통클래스 */
+.bg-black{
+    background-color: black !important;
+}
+
+.section{
+    height: 100vh;
+}
